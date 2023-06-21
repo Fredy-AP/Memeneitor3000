@@ -1,0 +1,31 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.meme-container {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#meme-img {
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.meme-preview {
+    margin-top: 20px;
+}
+
+.meme-preview-img {
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center;
+}

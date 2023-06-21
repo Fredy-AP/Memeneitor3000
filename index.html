@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generador de Memes</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Memes</h1>
+        <div class="meme-container">
+            <img id="meme-img" src="plantilla.jpg" alt="Meme">
+            <input id="text-top" type="text" placeholder="Texto superior">
+            <input id="text-bottom" type="text" placeholder="Texto inferior">
+            <button id="generate-btn" class="btn btn-primary">Generar Meme</button>
+            <a id="download-link" class="btn btn-success" download="meme_generado.jpg" style="display: none;">Descargar Meme</a>
+        </div>
+        <div class="meme-preview">
+            <h2>Vista previa:</h2>
+            <img id="meme-preview-img" src="" alt="Vista previa del meme">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
